@@ -1,0 +1,20 @@
+.aboutus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/premium-vector/crm-concept-with-big-words-people-surrounded-by-related-icon-spreading-with-modern-blue-color-style_25156-1280.jpg?size=626&ext=jpg&ga=GA1.1.2111602336.1695652309&semt=sph"); /* Replace with the actual path to your image file */
+  }
+  
+  .content {
+    text-align: center;
+    font-size:xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+  }
+
+  .aboutus .content {
+    font-size:large;
+}

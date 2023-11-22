@@ -1,0 +1,26 @@
+body {
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+    height: 100vh; /* Set the height of the body to cover the entire viewport */
+    background-size: 75%; /* Ensures the background image covers the entire body */
+    background-position: center; /* Centers the background image */
+    color: black; /* Set text color to white for better visibility on the image */
+  }
+  
+  .dashboard-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* This sets the container to take the full height of the viewport */
+    background-image: url("https://img.freepik.com/premium-vector/crm-concept-with-big-words-people-surrounded-by-related-icon-spreading-with-modern-blue-color-style_25156-1280.jpg?size=626&ext=jpg&ga=GA1.1.2111602336.1695652309&semt=sph"); /* Replace with the actual path to your image file */
+  }
+  
+  .content {
+    text-align: center;
+    font-size: small;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 30px; /* Adjusted margin to provide space between the text and background image */
+  background-color: rgba(255, 255, 255, 0.7); /* Add a semi-transparent white background for better text readability */
+  padding: 20px; /* Add padding for better text readability */
+}
+  
